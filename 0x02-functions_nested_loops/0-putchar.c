@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+	fputchar('_');
 	fputchar('p');
 	fputchar('u');
 	fputchar('t');
