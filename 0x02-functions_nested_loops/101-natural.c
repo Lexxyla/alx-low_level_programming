@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - computes and prints the sum of all the multiples
@@ -16,13 +17,13 @@ int main(void)
 
 	for (i = 0; i < 1024; ++i)
 	{
-		if ((i % 3) == 0)
-		{
-			sum3 = sum3 + i;
-		} else if ((i % 5) == 0)
-		{
-			sum5 = sum5 + i;
-		}
+	if ((i % 3) == 0)
+	{
+	sum3 = sum3 + i;
+	} else if ((i % 5) == 0)
+	{
+		sum5 = sum5 + i;
+	}
 	}
 	sum = sum3 + sum5;
 	printf("%lu\n", sum);
