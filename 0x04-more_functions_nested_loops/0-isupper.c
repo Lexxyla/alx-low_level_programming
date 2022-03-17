@@ -3,13 +3,18 @@
 /**
  *
  * main - checks for uppercase character.
- *
- * Return: Always 0.
+ * @c: input character.
+ * Return: 1 if is an uppercase character, 0 in other case.
  */
 
-int main(void)
+int _isupper(int c)
 {
-
-
-
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
