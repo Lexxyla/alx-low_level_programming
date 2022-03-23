@@ -8,6 +8,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int count = 0, count2 = 0;
+
 	while (*(dest + count) != '\0')
 	{
 		count++;
@@ -21,5 +22,5 @@ char *_strcat(char *dest, char *src)
 		count++;
 		count2++;
 	}
-	return(dest);
+	return (dest);
 }
