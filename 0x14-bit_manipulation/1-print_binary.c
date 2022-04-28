@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "mainn.h"
 
 /**
- * print_binary - prints the binary representation
+ * print_binary - program prints the binary representation
  * of a number.
  * @n: unsigned long int.
  *
