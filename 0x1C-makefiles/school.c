@@ -1,7 +1,7 @@
 #include "m.h"
 
 /**
- * print_hschool
+ * print_school
  *
  * Return: Nothing
  */
